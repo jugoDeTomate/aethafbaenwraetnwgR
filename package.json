@@ -1,0 +1,17 @@
+{
+  "name": "wr",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "parcel build public/index.html",
+    "dev": "parcel serve public/index.html"
+  },
+  "author": "Juan Aguilar",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}
