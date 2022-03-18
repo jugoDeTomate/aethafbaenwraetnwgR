@@ -1,0 +1,2 @@
+const o=document.querySelector("body"),e=document.getElementById("chcolor"),t=document.getElementById("rscolor"),n=o.style.backgroundColor;function c(o){return Math.floor(Math.random()*o+1)}e.addEventListener("click",(function(){o.style.backgroundColor=`rgb(${c(255)}, ${c(255)}, ${c(255)})`})),t.addEventListener("click",(function(){o.style.backgroundColor=n}));
+//# sourceMappingURL=index.e832a5fd.js.map
